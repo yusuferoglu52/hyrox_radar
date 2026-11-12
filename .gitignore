@@ -1,0 +1,30 @@
+# Environments and caches
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Generated output
+output*/
+charts/
+grafikler/
+dist/
+build/
+*.spec
+*.log
+
+# Local tooling (not part of the project)
+.remember/
+.claude/
+CLAUDE.md
+graphify-out/
+
+# Real competition / participant data: only the sample files are tracked
+*.xlsx
+*.xlsm
+*.csv
+!sample_scores*.xlsx
+
+# OS
+Thumbs.db
+Desktop.ini
